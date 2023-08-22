@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assigment-9::Q2</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter Your Details For Our Dating Website</h1>
+      <div class="content">
+        <form action="" method="GET">
+          <fieldset>
+            <legend>Your Face</legend>
+            <label for="file">Upload Your Image :</label> <input type="file" name="file" id="file" /> <br />
+            Image Preview :
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Your Details</legend>
+            <label for="text">Name :</label> <input type="text" name="fname" id="fname" placeholder="Arminkhaleghirad" />
+            <br /><br />
+            <label for="gender">Gender : </label> <input type="radio" name="gender" id="gender" />Male
+            <input type="radio" name="gender" id="gender" />Female <br /><br />
+            <label for="age">Age :</label> <input type="number" name="age" id="age" /><br /><br />
+            <label for="date">Date of Birth :</label> <input type="date" name="date" id="date" /> <br /><br />
+            <label for="color">Favourite color : </label>
+            <input type="color" name="color" id="color" value="#000" /><br /><br />
+            <label for="select">Country :</label>
+            <select name="select" id="select">
+              <option value="0" selected>Choose a Country</option>
+              <option value="4">India</option>
+              <option value="2">USA</option>
+              <option value="1">Iran</option>
+              <option value="3">Germany</option> </select
+             
+            ><br /><br />
+            <label for="range">Salary:</label> Poor<input type="range" name="range" id="range" min="0" max="100" />Rich <br />
+          </fieldset>
+          <br />
+          <fieldset>
+            <legend>Your Contact Information</legend>
+            <label for="text">Email :</label> <input type="text" name="email" id="email" /> <br /><br />
+            <label for="text">Phone :</label> <input type="text" name="phone" id="phone" /> <br /><br />
+            <label for="address">Address : </label> <textarea name="address" id="address" cols="30" rows="2"></textarea>
+            <br /><br />
+            Contact Methods(s) : <input type="checkbox" name="checkbox" id="email" />Email
+            <input type="checkbox" name="checkbox" id="phone" />Phone
+          </fieldset>
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
